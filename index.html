@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sweetytalks 💖</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SweetyTalks – Love & Emotions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    h1, .fancy {
+      font-family: 'Great Vibes', cursive;
+    }
+  </style>
 </head>
-<body>
-  <h1>Hello Bava! 😘</h1>
-  <p>This is our first website built with pure love. 🥺💞</p>
-  <p>Naaku thelusu link click chesi ikkadiki vasthav ani, wait chey</p>
+<body class="bg-gradient-to-br from-pink-100 to-rose-300 min-h-screen">
+  <header class="text-center p-10">
+    <h1 class="text-5xl text-rose-700 fancy">SweetyTalks</h1>
+    <p class="text-lg text-rose-900 italic mt-2">Where every emotion turns into magic... 💖</p>
+  </header>
+
+  <!-- Emotional Banner -->
+  <section class="w-full h-96 bg-cover bg-center relative" style="background-image: url('https://source.unsplash.com/featured/?love,couple');">
+    <div class="bg-black bg-opacity-50 w-full h-full flex items-center justify-center">
+      <h2 class="text-white text-3xl md:text-5xl text-center fancy">"Distance means so little when someone means so much..."</h2>
+    </div>
+  </section>
+
+  <!-- Reels Section -->
+  <section class="p-8">
+    <h2 class="text-3xl text-rose-800 fancy text-center mb-6">💫 Emotional Reels</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <iframe class="w-full aspect-video rounded-xl shadow-xl" src="https://www.youtube.com/embed/VIDEO_ID1" allowfullscreen></iframe>
+      <iframe class="w-full aspect-video rounded-xl shadow-xl" src="https://www.youtube.com/embed/VIDEO_ID2" allowfullscreen></iframe>
+      <iframe class="w-full aspect-video rounded-xl shadow-xl" src="https://www.youtube.com/embed/VIDEO_ID3" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="p-8 bg-white rounded-t-3xl">
+    <h2 class="text-3xl text-center text-rose-700 fancy mb-6">📝 Sweety's Heart Talks</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-rose-50 p-6 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold text-rose-800">The First Time I Met You</h3>
+        <p class="mt-2 text-gray-700">That smile, that moment, and the sparkle in your eyes changed everything...</p>
+      </div>
+      <div class="bg-rose-50 p-6 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold text-rose-800">Love Letters to the Sky</h3>
+        <p class="mt-2 text-gray-700">Even the stars blush when I whisper your name into the wind...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="p-8 bg-rose-100">
+    <h2 class="text-3xl text-center text-rose-700 fancy mb-6">📸 Sweety’s Love Quotes</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="https://source.unsplash.com/200x200/?love" class="rounded-xl shadow-lg" />
+      <img src="https://source.unsplash.com/201x200/?romantic" class="rounded-xl shadow-lg" />
+      <img src="https://source.unsplash.com/202x200/?couple" class="rounded-xl shadow-lg" />
+      <img src="https://source.unsplash.com/203x200/?heart" class="rounded-xl shadow-lg" />
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-rose-800 mt-10 p-6">
+    Made with 💖 by Sweety for Cherry Bava – 2025
+  </footer>
 </body>
 </html>
