@@ -1,0 +1,28 @@
+/* assets/styles.css */
+body {
+    background-color: #111;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ff3399;
+}
+
+.logo {
+    color: #ff3399;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+}
